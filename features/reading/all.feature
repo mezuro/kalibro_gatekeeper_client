@@ -3,7 +3,7 @@ Feature: Reading listing
   As a developer
   I want to see all the readings on the service
 
-  @kalibro_restart
+  @kalibro_configurations_restart
   Scenario: With existing reading group reading
     Given I have a reading group with name "Kalibro"
     And the given reading group has the following readings:
